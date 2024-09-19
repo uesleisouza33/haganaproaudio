@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-home {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+
+.header-home nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header-home nav:hover {
+    cursor: pointer;
+}
+
+.header-home a {
+    text-decoration: none;
+    color: white;
+}
+
+.intro-home {
+    margin-top: 80px; /* Ajuste para o cabeçalho fixo */
+    padding: 20px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column; /* Coloca os itens em coluna */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    height: calc(100vh - 80px); /* Altura da seção */
+    text-align: center;
+}
+
+.intro-home h1 {
+    color: black;
+}
+
+.destaques-home {
+    padding: 20px;
+    background-color: #e0e0e0; /* Cor de fundo para destacar a seção */
+    display: flex;
+    flex-direction: row; /* Alinha os itens horizontalmente */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a linha seguinte se necessário */
+    justify-content: space-around; /* Espaça os itens uniformemente */
+    align-items: flex-start; /* Alinha os itens no início da linha */
+    text-align: center;
+}
+
+.destaques-home h2 {
+    width: 100%;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.destaques-home .destaque-item {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Ajuste a largura conforme necessário */
+    max-width: 100%; /* Garante que não ultrapasse a largura da tela */
+}
+
+.destaques-home .destaque-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.destaques-home .destaque-item h3 {
+    margin-top: 10px;
+    color: #000;
+}
+
+.destaques-home .destaque-item p {
+    color: #555;
+}
