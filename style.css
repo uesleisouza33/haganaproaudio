@@ -1,4 +1,4 @@
-body {
+html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +13,7 @@ body {
     z-index: 1000;
     justify-content: center;
     align-items: center;
-    top: 0;
+    top: 0; 
     left: 0;
 }
 
@@ -39,7 +39,7 @@ body {
     flex-direction: column; /* Coloca os itens em coluna */
     justify-content: center; /* Centraliza o conteúdo verticalmente */
     align-items: center; /* Centraliza o conteúdo horizontalmente */
-    height: calc(100vh - 80px); /* Altura da seção */
+    height: calc(100vh - 10px); /* Altura da seção */
     text-align: center;
 }
 
